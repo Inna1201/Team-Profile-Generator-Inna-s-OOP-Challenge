@@ -1,12 +1,12 @@
 
 function buildManagerCard(manager) {
     return `<div class="manager">
-            <h2>${manager.getName()}</h2>
-            <p class="position">Position: Manager</p>
-            <p>ID:${manager.getId()}</p>
-            <p>Email: <a href="mailto:${manager.getEmail()}">${manager.getEmail()}</a></p>
-            <p>Office Number:  ${manager.getOfficeNum()}</p>
-        </div>`
+        <h2>${manager.getName()}</h2>
+        <p class="position">Position: Manager</p>
+        <p>ID:${manager.getId()}</p>
+        <p>Email: <a href="mailto:${manager.getEmail()}">${manager.getEmail()}</a></p>
+        <p>Office Number:  ${manager.getOfficeNum()}</p>
+    </div>`
 };
 
 function buildEngineerCard(engineer) {
@@ -15,7 +15,6 @@ function buildEngineerCard(engineer) {
         <p class="position">Position: Engineer</p>
         <p>ID: ${engineer.getId()}</p>
         <p>Email: <a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}</a></p>
-        <p>GitHub: </p>
         <p>GitHub: <a href="https://github.com/${engineer.getGithub()}" target="_blank">${engineer.getGithub()}</a></p>
     </div>`
 };

@@ -15,10 +15,9 @@ Create a Node.js command-line application that takes in information about employ
 
 
 # Screenshot
-![Preview image]()
-![Preview image]()
+![Preview image](./Assets/Screenshot-01.png)
 
 
 
 # Link
-[Web page]()
+[Web page](https://drive.google.com/file/d/1wdJO83BEPfwjqXM4-47Md614JGapFT64/view)
