@@ -4,3 +4,32 @@ header {
     background-color: crimson;
     color: white;
 }
+
+.members {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 20px;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.position {
+    font-style: italic;
+}
+
+.manager,
+.engineer,
+.intern {
+    margin: 30px 10px 140px 10px;
+    border: 5px solid tan;
+    width: 300px;
+    height: 300px;
+    padding-left: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    background-color: blanchedalmond;
+}
