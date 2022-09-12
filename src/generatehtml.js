@@ -3,7 +3,7 @@ function buildManagerCard(manager) {
     return `<div class="manager">
         <h2>${manager.getName()}</h2>
         <p class="position">Position: Manager</p>
-        <p>ID:${manager.getId()}</p>
+        <p>ID: ${manager.getId()}</p>
         <p>Email: <a href="mailto:${manager.getEmail()}">${manager.getEmail()}</a></p>
         <p>Office Number:  ${manager.getOfficeNum()}</p>
     </div>`
